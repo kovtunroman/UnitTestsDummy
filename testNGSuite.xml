@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" verbose="3">
+
+   <test name="Calculator">
+      <classes>
+         <class name="CalculatorTNG" />
+      </classes>
+   </test>
+
+   <test name="EvenOddChecker">
+      <classes>
+         <class name="EvenOddCheckerTNG" />
+      </classes>
+   </test>
+
+   <test name="Rectangle">
+      <classes>
+         <class name="RectangleTNG" />
+      </classes>
+   </test>
+
+</suite>
