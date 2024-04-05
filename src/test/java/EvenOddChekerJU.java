@@ -1,9 +1,12 @@
 import org.junit.Test;
 
+import java.util.Random;
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class EvenOddChekerJU {
+
     @Test
     public void checkEven(){
         EvenOddChecker evenOddChecker = new EvenOddChecker();

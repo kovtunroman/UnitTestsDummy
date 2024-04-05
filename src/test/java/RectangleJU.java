@@ -11,21 +11,21 @@ public class RectangleJU {
     double width = random.nextDouble();
 
     @Test
-    public void testRectungleConstructor(){
-        Rectangle rectangle = new Rectangle(length,width);
+    public void testRectungleConstructor() {
+        Rectangle rectangle = new Rectangle(length, width);
         assertNotNull(rectangle);
-        assertEquals( length, rectangle.length, 0);
-        assertEquals( width, rectangle.width, 0);
+        assertEquals(length, rectangle.length, 0);
+        assertEquals(width, rectangle.width, 0);
     }
 
     @Test
-    public void testGetLength(){
-        Rectangle rectangle = new Rectangle(length,width);
-        assertEquals( length, rectangle.getLength(), 0);
+    public void testGetLength() {
+        Rectangle rectangle = new Rectangle(length, width);
+        assertEquals(length, rectangle.getLength(), 0);
     }
 
     @Test
-    public void testSetLength(){
+    public void testSetLength() {
         Rectangle rectangle = new Rectangle(length, width);
         double newLength = random.nextDouble();
         rectangle.setLength(newLength);
@@ -33,13 +33,13 @@ public class RectangleJU {
     }
 
     @Test
-    public void testGetWidth(){
-        Rectangle rectangle = new Rectangle(length,width);
-        assertEquals( width, rectangle.getWidth(), 0);
+    public void testGetWidth() {
+        Rectangle rectangle = new Rectangle(length, width);
+        assertEquals(width, rectangle.getWidth(), 0);
     }
 
     @Test
-    public void testSetWidth(){
+    public void testSetWidth() {
         Rectangle rectangle = new Rectangle(length, width);
         double newWidth = random.nextDouble();
         rectangle.setWidth(newWidth);
@@ -47,8 +47,8 @@ public class RectangleJU {
     }
 
     @Test
-    public void testGetArea(){
-        Rectangle rectangle = new Rectangle(length,width);
-        assertEquals( length * width, rectangle.getArea(), 0);
+    public void testGetArea() {
+        Rectangle rectangle = new Rectangle(length, width);
+        assertEquals(length * width, rectangle.getArea(), 0);
     }
 }
