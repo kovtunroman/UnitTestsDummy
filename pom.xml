@@ -8,14 +8,9 @@
     <artifactId>UnitTestsDummy</artifactId>
     <version>1.0.0</version>
 
-    <build>
-        <testSourceDirectory>src/main/java</testSourceDirectory>
-        <sourceDirectory>src/main/java</sourceDirectory>
-    </build>
-
     <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 

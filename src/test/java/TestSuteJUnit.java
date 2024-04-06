@@ -5,3 +5,4 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({CalculatorJU.class, EvenOddChekerJU.class, RectangleJU.class})
 public class TestSuteJUnit {
 }
+
